@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ostrich_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/owl_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/umbrella_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/car_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/cat_article"
+        android:duration="2000"/>
+</animation-list>

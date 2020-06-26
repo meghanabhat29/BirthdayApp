@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memories!!"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="cursive"/>
+
+            <TextView
+                android:id="@+id/bhakti"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="BHAKTI"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewBhakti"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewBhakti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/deepak"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="DEEPAK"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewDeepak"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewDeepak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+
+            <TextView
+                android:id="@+id/meghana"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="MEGHANA"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewMeghana"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewMeghana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/neehar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="NEEHAR"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewNeehar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewNeehar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+
+            <TextView
+                android:id="@+id/nishan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="NISHAN"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewNishan"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewNishan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sharath"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="SHARATH"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewSharath"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewSharath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="60sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/chair_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/egg_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/elephant_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/icecream_article"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/msrit"
+        android:duration="2000"/>
+</animation-list>
