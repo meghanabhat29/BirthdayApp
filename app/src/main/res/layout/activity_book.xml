@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/primary_text_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="\t\tLights.Camera.Master Blaster."
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/book_text_view"/>
+
+    <ImageView
+        android:id="@+id/imageViewBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sachin_autobiography"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:onClick="openURL"
+            android:text="Begin Reading"
+            android:background="@android:color/holo_orange_light"
+            android:id="@+id/buttonBook"/>
+    </LinearLayout>
+
+
+</ScrollView>
