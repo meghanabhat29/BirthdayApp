@@ -16,29 +16,22 @@
         android:background="@android:color/holo_blue_dark">
 
         <Button
+            android:id="@+id/buttonIntro"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:layout_height="84dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="openMemories"
+            android:text="Let's unwind?"
             android:textColorHint="@color/colorPrimary"
-            android:background="@android:color/darker_gray"
-            android:text="Let's talk?"
-            android:onClick="manish"/>
-
-
-        <ImageButton
-            android:id="@+id/m"
-            android:src="@drawable/m"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="openMemories"/>
+            android:textSize="20sp" />
 
 
         <ImageView
-            android:id="@+id/image_view"
-            android:layout_width="match_parent"
+            android:id="@+id/imageViewIntro"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/manishbirthday" />
-
+            android:background="@drawable/manishbirthday"
+            />
 
 
     </LinearLayout>

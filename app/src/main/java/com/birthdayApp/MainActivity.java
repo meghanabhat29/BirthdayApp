@@ -11,45 +11,33 @@ import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.ImageView;
-
 import java.io.FileDescriptor;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView imageView;
+    private ImageView imageViewIntro;
+    public Button buttonIntro;
     public Bitmap image;
-    private ImageButton membutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = findViewById(R.id.image_view);
-        membutton = findViewById(R.id.m);
-        membutton.setOnClickListener(new View.OnClickListener() {
+        imageViewIntro = findViewById(R.id.imageViewIntro);
+        buttonIntro = findViewById(R.id.buttonIntro);
+        buttonIntro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMemories();
+                openMemories(view);
             }
         });
     }
 
-    public void openMemories() {
-        Intent intent = new Intent(this,Memories.class);
-        startActivity(intent);
-    }
 
-
-    public void manish(View v) {
-        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-        intent.setType("image/*");
-        startActivityForResult(intent, 1);
-    }
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         super.onActivityResult(requestCode, resultCode, data);
@@ -70,5 +58,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+    }
+
+    public void openMemories(View view)
+    {
+        Intent intent = new Intent(this,Memories.class);
+        startActivity(intent);
     }
 }
