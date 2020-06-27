@@ -13,7 +13,6 @@ public class Disclaimer extends AppCompatActivity {
 
     private TextView textViewDisclaimer;
     private ImageView imageViewDisclaimer;
-    private static final long START_TIME_IN_ms = 60000;
     private CountDownTimer countDownTimer;
     private boolean timerRunning = true;
     private long timeLeft; // in milliseconds

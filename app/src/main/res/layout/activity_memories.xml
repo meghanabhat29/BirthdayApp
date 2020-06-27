@@ -196,14 +196,19 @@
                 android:layout_height="300dp"
                 android:src="@drawable/apple_article" />
 
-            <TextView
-                android:id="@+id/textViewSharath"
+            <ImageView
+                android:id="@+id/SharathPoem"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20sp"
-                android:layout_marginBottom="60sp"
-                android:text="Hi Manish. This is what I share with you"
-                android:textSize="30sp"/>
+                android:layout_height="400dp"
+                android:src="@drawable/sharathpoem2" />
+
+            <ImageView
+                android:id="@+id/SharathPoem2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/sharathpoem" />
+
+
 
         </LinearLayout>
     </ScrollView>

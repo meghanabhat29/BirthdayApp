@@ -13,7 +13,8 @@ import android.widget.TextView;
 public class Memories extends AppCompatActivity {
 
     ImageView Bhakti, Deepak, Meghana, Neehar, Nishan, Sharath;
-    TextView tBhakti, tDeepak, tMeghana, tNeehar, tNishan, tSharath;
+    TextView tBhakti, tDeepak, tMeghana, tNeehar, tNishan;
+    ImageView tSharath, tSharath2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -32,7 +33,8 @@ public class Memories extends AppCompatActivity {
         tMeghana = findViewById(R.id.textViewMeghana);
         tNeehar = findViewById(R.id.textViewNeehar);
         tNishan = findViewById(R.id.textViewNishan);
-        tSharath = findViewById(R.id.textViewSharath);
+        tSharath = findViewById(R.id.SharathPoem);
+        tSharath2 = findViewById(R.id.SharathPoem2);
         BhaktiAnimation();
         DeepakAnimation();
         MeghanaAnimation();
