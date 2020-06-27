@@ -34,7 +34,7 @@ public class Book extends AppCompatActivity {
         buttonBook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openBook(view);
+                openURL(view);
             }
         });
     }
@@ -42,10 +42,12 @@ public class Book extends AppCompatActivity {
 
     public void openURL(View view)
     {
-        Intent intent = new Intent(this,URLClass.class);
+        Uri uri = Uri.parse("https://accounts.google.com");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
+
     }
 }
 
 
-}
+

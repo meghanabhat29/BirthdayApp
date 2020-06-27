@@ -2,9 +2,11 @@ package com.birthdayApp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class Memories extends AppCompatActivity {
@@ -30,6 +32,7 @@ public class Memories extends AppCompatActivity {
         NeeharAnimation();
         NishanAnimation();
         SharathAnimation();
+
     }
 
     public void BhaktiAnimation()
@@ -79,5 +82,6 @@ public class Memories extends AppCompatActivity {
         final AnimationDrawable correctAnimation = (AnimationDrawable) Sharath.getDrawable();
         correctAnimation.start();
     }
+
 }
 

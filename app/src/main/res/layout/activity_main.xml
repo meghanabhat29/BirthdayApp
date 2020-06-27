@@ -19,7 +19,7 @@
             android:id="@+id/buttonIntro"
             android:layout_width="match_parent"
             android:layout_height="84dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="@android:color/darker_gray"
             android:onClick="openMemories"
             android:text="Let's unwind?"
             android:textColorHint="@color/colorPrimary"
