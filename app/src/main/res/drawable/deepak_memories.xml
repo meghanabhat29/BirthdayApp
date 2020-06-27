@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/chair_article"
+    <item android:drawable="@drawable/deepak1"
         android:duration="2000"/>
-    <item android:drawable="@drawable/egg_article"
+    <item android:drawable="@drawable/deepak2"
         android:duration="2000"/>
-    <item android:drawable="@drawable/elephant_article"
+    <item android:drawable="@drawable/deepak3"
         android:duration="2000"/>
-    <item android:drawable="@drawable/icecream_article"
+    <item android:drawable="@drawable/deepak4"
         android:duration="2000"/>
-    <item android:drawable="@drawable/msrit"
+    <item android:drawable="@drawable/deepak5"
         android:duration="2000"/>
 </animation-list>
