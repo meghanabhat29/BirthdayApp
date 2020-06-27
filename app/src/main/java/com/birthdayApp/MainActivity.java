@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openMemories(View view)
     {
-        Intent intent = new Intent(this,Memories.class);
+        Intent intent = new Intent(this,OptionDashboard.class);
         startActivity(intent);
     }
 }
