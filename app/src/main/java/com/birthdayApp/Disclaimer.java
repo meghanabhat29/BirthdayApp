@@ -31,7 +31,7 @@ public class Disclaimer extends AppCompatActivity {
     }
 
     private void startTimer() {
-        countDownTimer = new CountDownTimer(timeLeft, 1000) {
+        countDownTimer = new CountDownTimer(3000, 1) {
             @Override
             public void onTick(long l) {
                 timeLeft = l;
@@ -41,10 +41,10 @@ public class Disclaimer extends AppCompatActivity {
             @Override
             public void onFinish() {
                 timerRunning = false;
-                Intent disIntent = new Intent(Disclaimer.this, A.class);
+                Intent disIntent = new Intent(Disclaimer.this, OptionDashboard.class);
                 startActivity(disIntent);
             }
-        };
+        }.start();
     }
 
 
