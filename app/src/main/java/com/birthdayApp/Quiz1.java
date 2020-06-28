@@ -26,7 +26,7 @@ public class Quiz1 extends AppCompatActivity {
         Submit1 = findViewById(R.id.q1Submit);
         Submit2 = findViewById(R.id.q2Submit);
         Submit3 = findViewById(R.id.q3Submit);
-        Reward = findViewById(R.id.nextButton);
+        Reward = findViewById(R.id.nextButton2);
 
         Submit1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +73,7 @@ public class Quiz1 extends AppCompatActivity {
         Reward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Nalapaaka.class);
+                Intent intent = new Intent(Quiz1.this, Nalapaaka.class);
                 startActivity(intent);
             }
         });

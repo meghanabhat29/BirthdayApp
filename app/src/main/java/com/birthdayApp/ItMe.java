@@ -33,13 +33,13 @@ public class ItMe extends AppCompatActivity {
 
         play();
 
-        buttonNext = findViewById(R.id.buttonBook);
-        buttonNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openNext(view);
-            }
-        });
+//        buttonNext = findViewById(R.id.buttonBook);
+//        buttonNext.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                openNext(view);
+//            }
+//        });
 
 
     }

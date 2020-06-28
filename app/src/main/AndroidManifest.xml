@@ -22,6 +22,7 @@
         <activity android:name=".Disclaimer" />
         <activity android:name=".ItMe" />
         <activity android:name=".SachinQuiz" />
+        <activity android:name=".Nalapaaka"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

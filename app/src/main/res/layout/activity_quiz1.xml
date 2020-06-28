@@ -189,7 +189,7 @@ b
 
 
             <Button
-                android:id="@+id/nextButton"
+                android:id="@+id/nextButton2"
                 android:layout_width="197dp"
                 android:layout_height="77dp"
                 android:background="@drawable/submit_btn_border"
