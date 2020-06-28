@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/apple_article"
+    <item android:drawable="@drawable/nishan1"
         android:duration="2000"/>
-    <item android:drawable="@drawable/ball_article"
+    <item android:drawable="@drawable/nishan2"
         android:duration="2000"/>
-    <item android:drawable="@drawable/bat_article"
+    <item android:drawable="@drawable/nishan3"
         android:duration="2000"/>
-    <item android:drawable="@drawable/car_article"
+    <item android:drawable="@drawable/nishan4"
         android:duration="2000"/>
-    <item android:drawable="@drawable/cat_article"
+    <item android:drawable="@drawable/nishan5"
         android:duration="2000"/>
 </animation-list>
