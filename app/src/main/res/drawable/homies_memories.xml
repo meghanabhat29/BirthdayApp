@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/andwetwist1"
-        android:duration="2000"/>
+    <item android:drawable="@drawable/andwetwist9"
+        android:duration="3000"/>
     <item android:drawable="@drawable/andwetwist2"
-        android:duration="2000"/>
+        android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist3"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist4"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist5"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist6"
+        android:duration="3000"/>
     <item android:drawable="@drawable/andwetwist7"
-        android:duration="2000"/>
-    <item android:drawable="@drawable/deepak4"
-        android:duration="2000"/>
-    <item android:drawable="@drawable/deepak5"
-        android:duration="2000"/>
+    android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist8"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/andwetwist1"
+        android:duration="3000"/>
 </animation-list>
