@@ -80,6 +80,7 @@ public class Memories extends AppCompatActivity {
     public void MeghanaAnimation()
     {
         Meghana.setVisibility(View.VISIBLE);
+        tMeghana.setText("Happy birthday Manish.I hope you have an amazing life ahead and may it be everything that you want it to be.\n\n I've written a poem for you.Read it.If you already have, I hope it made you smile.");
         Meghana.setImageResource(R.drawable.meghana_memories);
         final AnimationDrawable correctAnimation = (AnimationDrawable) Meghana.getDrawable();
         correctAnimation.start();
