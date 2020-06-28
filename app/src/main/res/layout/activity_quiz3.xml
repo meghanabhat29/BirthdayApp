@@ -30,56 +30,57 @@
                 android:layout_width="match_parent"
                 android:layout_height="127dp"
                 android:fontFamily="casual"
-                android:text="QUIZ"
+                android:text="How well do you know us?"
                 android:textAlignment="center"
                 android:textColor="@color/cardview_dark_background"
-                android:textSize="50sp" />
+                android:textSize="30sp"/>
 
             <TextView
                 android:id="@+id/question1"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:text="1. How many international half centuries has Sachin scored?"
+                android:text="1.What did Hema tell Neehar outside DSP lab?"
                 android:textSize="30sp" />
 
-                <RadioGroup
-                    android:id="@+id/q1options"
+            <RadioGroup
+                android:id="@+id/q1options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/q1o1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="60dp"
+                    android:text="Neehar, I am getting married.Are you single?"
+                    android:textSize="25sp" />
 
-                    <RadioButton
-                        android:id="@+id/q1o1"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="146"
-                        android:textSize="25sp" />
+                <RadioButton
+                    android:id="@+id/q1o2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Neehar, even I am single and ready to mingle, you know."
+                    android:textSize="25sp" />
 
-                    <RadioButton
-                        android:id="@+id/q1o2"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="164"
-                        android:textSize="25sp" />
+                <RadioButton
+                    android:id="@+id/q1o3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Neehar, are you single and ready to mingle?"
+                    android:textSize="25sp" />
 
-                    <RadioButton
-                        android:id="@+id/q1o3"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="182"
-                        android:textSize="25sp"/>
-
-                    <RadioButton
-                        android:id="@+id/q1o4"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="200"
-                        android:textSize="25sp" />
-                </RadioGroup>
+                <RadioButton
+                    android:id="@+id/q1o4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Neehar, are you single?Let's have coffee."
+                    android:textSize="25sp" />
+            </RadioGroup>
 
             <Button
                 android:id="@+id/q1Submit"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/submit_btn_border"
                 android:text="SUBMIT"
 
@@ -90,7 +91,7 @@
                 android:id="@+id/question2"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:text="2. What is Sir Donald Bradman's batting average in tests?"
+                android:text="2.How does Sharath address you as very often?"
                 android:textSize="30sp" />
 
             <RadioGroup
@@ -102,28 +103,28 @@
                     android:id="@+id/q2o1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="99.94"
+                    android:text="Aa Manishu "
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q2o2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="100.00"
+                    android:text="Thatha"
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q2o3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="98.84"
+                    android:text="Manish"
                     android:textSize="25sp"/>
 
                 <RadioButton
                     android:id="@+id/q4o4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="101.10"
+                    android:text="Ey"
                     android:textSize="25sp" />
             </RadioGroup>
 
@@ -140,7 +141,7 @@
                 android:id="@+id/question3"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:text="3. How many runs are awarded to the batting side if the ball, when in play, touches any fielder's accessories?"
+                android:text="2.Which restaurant did we go to on Deepak's birthday in 2019?"
                 android:textSize="30sp" />
 
             <RadioGroup
@@ -152,28 +153,28 @@
                     android:id="@+id/q3o1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="1"
+                    android:text="1922"
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q3o2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="4"
+                    android:text="1947"
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q3o3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="3"
+                    android:text="1522"
                     android:textSize="25sp"/>
 
                 <RadioButton
                     android:id="@+id/q3o4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:text="5"
+                    android:text="Chapter One"
                     android:textSize="25sp" />
             </RadioGroup>
 
@@ -185,6 +186,7 @@
                 android:text="SUBMIT"
                 android:textSize="30sp"
                 android:visibility="invisible"/>
+
 
             <Button
                 android:id="@+id/nextButton"

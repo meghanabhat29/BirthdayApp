@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Genasale"></activity>
+        <activity android:name=".Quiz4"></activity>
+        <activity android:name=".Quiz3" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Quiz1" />
+        <activity android:name=".Genasale" />
         <activity android:name=".Nalapaaka" />
         <activity android:name=".Book" />
         <activity android:name=".Memories" />
@@ -17,7 +21,7 @@
         <activity android:name=".Homies" />
         <activity android:name=".Disclaimer" />
         <activity android:name=".ItMe" />
-        <activity android:name=".SachinQuiz"/>
+        <activity android:name=".SachinQuiz" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
