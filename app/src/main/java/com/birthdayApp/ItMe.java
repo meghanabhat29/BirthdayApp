@@ -71,7 +71,7 @@ public class ItMe extends AppCompatActivity {
     }
 
     public void openNext(View view) {
-        Intent intent = new Intent(getApplicationContext(), Quiz3.class);
+        Intent intent = new Intent(ItMe.this, Quiz3.class);
         startActivity(intent);
 
     }
