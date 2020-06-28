@@ -37,21 +37,21 @@ public class Nalapaaka extends AppCompatActivity {
             }
         });
 
-//        buttonNext = findViewById(R.id.button_next);
-//        buttonNext.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                openNext(view);
-//            }
-//        });
+        buttonNext = findViewById(R.id.button_nextnalapaaka);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
 
     }
 
-//    public void openNext(View v) {
-//        Intent intent = new Intent(getApplicationContext(), Quiz1.class);
-//        startActivity(intent);
-//
-//    }
+    public void openNext(View v) {
+        Intent intent = new Intent(getApplicationContext(), Quiz2.class);
+        startActivity(intent);
+
+    }
 
 
 }

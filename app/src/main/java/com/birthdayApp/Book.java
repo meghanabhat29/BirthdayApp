@@ -40,13 +40,13 @@ public class Book extends AppCompatActivity {
             }
         });
 
-        buttonNext = findViewById(R.id.button_next);
-//        buttonNext.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                openNext(view);
-//            }
-//        });
+        buttonNext = findViewById(R.id.book_next);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
     }
 
 

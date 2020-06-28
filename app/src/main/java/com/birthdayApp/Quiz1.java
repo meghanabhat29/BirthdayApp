@@ -20,13 +20,13 @@ public class Quiz1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz1);
 
-        Question1 = findViewById(R.id.q1options);
-        Question2 = findViewById(R.id.q2options);
-        Question3 = findViewById(R.id.q3options);
-        Submit1 = findViewById(R.id.q1Submit);
-        Submit2 = findViewById(R.id.q2Submit);
-        Submit3 = findViewById(R.id.q3Submit);
-        Reward = findViewById(R.id.nextButton2);
+        Question1 = findViewById(R.id.q1optionsquiz1);
+        Question2 = findViewById(R.id.q2optionsquiz1);
+        Question3 = findViewById(R.id.q3optionsquiz1);
+        Submit1 = findViewById(R.id.q1Submitquiz1);
+        Submit2 = findViewById(R.id.q2Submitquiz1);
+        Submit3 = findViewById(R.id.q3Submitquiz1);
+        Reward = findViewById(R.id.nextButtonquiz1);
 
         Submit1.setOnClickListener(new View.OnClickListener() {
             @Override

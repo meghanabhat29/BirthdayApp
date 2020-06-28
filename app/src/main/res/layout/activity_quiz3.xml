@@ -37,40 +37,40 @@
                 android:textSize="30sp"/>
 
             <TextView
-                android:id="@+id/question1"
+                android:id="@+id/question1quiz3"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
                 android:text="1.What did Hema tell Neehar outside DSP lab?"
                 android:textSize="30sp" />
 
             <RadioGroup
-                android:id="@+id/q1options"
+                android:id="@+id/q1optionsquiz3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/q1o1"
+                    android:id="@+id/q1o1quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Neehar, I am getting married.Are you single?"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q1o2"
+                    android:id="@+id/q1o2quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Neehar, even I am single and ready to mingle, you know."
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q1o3"
+                    android:id="@+id/q1o3quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Neehar, are you single and ready to mingle?"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q1o4"
+                    android:id="@+id/q1o4quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Neehar, are you single?Let's have coffee."
@@ -78,7 +78,7 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/q1Submit"
+                android:id="@+id/q1Submitquiz3"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -89,40 +89,40 @@
                 />
 
             <TextView
-                android:id="@+id/question2"
+                android:id="@+id/question2quiz3"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
                 android:text="2.How does Sharath address you as very often?"
                 android:textSize="30sp" />
 
             <RadioGroup
-                android:id="@+id/q2options"
+                android:id="@+id/q2optionsquiz3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/q2o1"
+                    android:id="@+id/q2o1quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Aa Manishu "
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q2o2"
+                    android:id="@+id/q2o2quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Thatha"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q2o3"
+                    android:id="@+id/q2o3quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Thathappa"
                     android:textSize="25sp"/>
 
                 <RadioButton
-                    android:id="@+id/q4o4"
+                    android:id="@+id/q4o4quiz3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Ey"
@@ -130,7 +130,7 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/q2Submit"
+                android:id="@+id/q2Submitquiz3"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:background="@drawable/submit_btn_border"
@@ -140,7 +140,7 @@
 
 
             <Button
-                android:id="@+id/nextButton"
+                android:id="@+id/nextButtonquiz3"
                 android:layout_width="197dp"
                 android:layout_height="77dp"
                 android:background="@drawable/submit_btn_border"

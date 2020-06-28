@@ -124,7 +124,7 @@
             android:onClick="openNext"
             android:text="Next"
             android:background="@android:color/holo_orange_light"
-            android:id="@+id/button_next"/>
+            android:id="@+id/button_nextnalapaaka"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

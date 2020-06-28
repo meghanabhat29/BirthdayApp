@@ -23,13 +23,13 @@ public class Homies extends AppCompatActivity {
         homiesAnimation();
         play();
 
-//        buttonNext = findViewById(R.id.buttonBook);
-//        buttonNext.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                openNext(view);
-//            }
-//        });
+        buttonNext = findViewById(R.id.button_nextHomies);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
 
     }
 

@@ -20,13 +20,13 @@ public class Quiz4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz4);
 
-        Question1 = findViewById(R.id.q1options);
-        Question2 = findViewById(R.id.q2options);
-        Question3 = findViewById(R.id.q3options);
-        Submit1 = findViewById(R.id.q1Submit);
-        Submit2 = findViewById(R.id.q2Submit);
-        Submit3 = findViewById(R.id.q3Submit);
-        Reward = findViewById(R.id.nextButton);
+        Question1 = findViewById(R.id.q1optionsquiz4);
+        //Question2 = findViewById(R.id.q2optionsquiz4);
+        Question3 = findViewById(R.id.q3optionsquiz4);
+        Submit1 = findViewById(R.id.q1Submitquiz4);
+        //Submit2 = findViewById(R.id.q2Submitquiz4);
+        Submit3 = findViewById(R.id.q3Submitquiz4);
+        Reward = findViewById(R.id.nextButtonquiz4);
 
         Submit1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +34,7 @@ public class Quiz4 extends AppCompatActivity {
                 int selectedradioID = Question1.getCheckedRadioButtonId();
                 RadioButton selectedradioButton = findViewById(selectedradioID);
                 if(selectedradioButton.getText().equals("School")) {
-                    Submit2.setVisibility(View.VISIBLE);
+                    Submit3.setVisibility(View.VISIBLE);
                     Toast.makeText(Quiz4.this, "CORRECT ANSWER", Toast.LENGTH_SHORT).show();
                 }
                 else
@@ -42,10 +42,10 @@ public class Quiz4 extends AppCompatActivity {
             }
         });
 
-        Submit2.setOnClickListener(new View.OnClickListener() {
+        Submit3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int selectedradioID = Question2.getCheckedRadioButtonId();
+                int selectedradioID = Question3.getCheckedRadioButtonId();
                 RadioButton selectedradioButton = findViewById(selectedradioID);
                 if(selectedradioButton.getText().equals("1522")) {
                     Submit3.setVisibility(View.VISIBLE);

@@ -37,33 +37,33 @@
                 android:textSize="30sp"/>
 
             <TextView
-                android:id="@+id/question1"
+                android:id="@+id/question1quiz4"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
                 android:text="1.Vivek spoke about a prank when we played 'Never have I ever'. When did it happen?"
                 android:textSize="30sp" />
 
             <RadioGroup
-                android:id="@+id/q1options"
+                android:id="@+id/q1optionsquiz4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/q1o1"
+                    android:id="@+id/q1o1quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="School"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q1o2"
+                    android:id="@+id/q1o2quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="PU College"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q1o3"
+                    android:id="@+id/q1o3quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="During Engineering"
@@ -72,7 +72,7 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/q1Submit"
+                android:id="@+id/q1Submitquiz4"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
@@ -85,40 +85,40 @@
 
 
             <TextView
-                android:id="@+id/question3"
+                android:id="@+id/question3quiz4"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
                 android:text="2.Which restaurant did we go to on Deepak's birthday in 2019?"
                 android:textSize="30sp" />
 
             <RadioGroup
-                android:id="@+id/q3options"
+                android:id="@+id/q3optionsquiz4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/q3o1"
+                    android:id="@+id/q3o1quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="1922"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q3o2"
+                    android:id="@+id/q3o2quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="1947"
                     android:textSize="25sp" />
 
                 <RadioButton
-                    android:id="@+id/q3o3"
+                    android:id="@+id/q3o3quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="1522"
                     android:textSize="25sp"/>
 
                 <RadioButton
-                    android:id="@+id/q3o4"
+                    android:id="@+id/q3o4quiz4"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Chapter One"
@@ -126,7 +126,7 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/q3Submit"
+                android:id="@+id/q3Submitquiz4"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:background="@drawable/submit_btn_border"
@@ -136,7 +136,7 @@
 
 
             <Button
-                android:id="@+id/nextButton"
+                android:id="@+id/nextButtonquiz4"
                 android:layout_width="197dp"
                 android:layout_height="77dp"
                 android:background="@drawable/submit_btn_border"

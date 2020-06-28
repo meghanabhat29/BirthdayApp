@@ -68,7 +68,7 @@
                 android:onClick="openNext"
                 android:text="Next"
                 android:background="@android:color/holo_orange_light"
-                android:id="@+id/book_next"/>
+                android:id="@+id/button_nextHomies"/>
 
 
 
