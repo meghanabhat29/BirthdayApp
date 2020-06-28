@@ -92,6 +92,18 @@ public class Memories extends AppCompatActivity {
         Neehar.setImageResource(R.drawable.neehar_memories);
         final AnimationDrawable correctAnimation = (AnimationDrawable) Neehar.getDrawable();
         correctAnimation.start();
+        tNeehar.setText("Many many happy returns of the day Manish!!\n" +
+                "It's been almost three years since we've known each other and man, we've really come a long way. Infact, you've been an integral part of all my prominent memories which I'm going to treasure all my life.\n" +
+                "I really don't know when the two of us really clicked, probably because it happened so naturally. \n" +
+                "Out of all the people in my life, I can relate myself the most with you. From our taste in music to our approach towards lab records\uD83D\uDE02, from rooting for MI to the love for Java, from exploring new places to jumping in a deep sea without jacket, we've a lot in common and it's always great to have like-minded individuals around.\n" +
+                "\n" +
+                "I don't think I've ever told you what you mean to me so let me put it out now\n" +
+                "For me, you are someone who's willing to jump off a cliff with me just for the sake of it.\n" +
+                "For me, you are someone with whom exploring new things and in turn, exploring myself feels simpler.\n" +
+                "For me, you're someone who not only supports me in every way, but also is ready to walk through the woods with me, holding a lamp.\n" +
+                "For me, you are special.\n" +
+                "For someone as special as you, the sky's the limit would be an understatement. For someone as special as you, you're ought to walk a merry way and leave behind a legacy of your own.\n" +
+                "Wishing you the very best for your future endeavours!");
     }
 
     public void NishanAnimation()
@@ -100,6 +112,7 @@ public class Memories extends AppCompatActivity {
         Nishan.setImageResource(R.drawable.nishan_memories);
         final AnimationDrawable correctAnimation = (AnimationDrawable) Nishan.getDrawable();
         correctAnimation.start();
+        tNishan.setText("Manish, The name says it all. \"The God of the mind\". No other words are required to describe him. Happy Birthday Manish Kumar!!");
     }
 
     public void SharathAnimation()
@@ -116,6 +129,7 @@ public class Memories extends AppCompatActivity {
         Vivek.setImageResource(R.drawable.vivek_memories);
         final AnimationDrawable correctAnimation = (AnimationDrawable) Vivek.getDrawable();
         correctAnimation.start();
+        tVivek.setText("h>j");
     }
 
 
