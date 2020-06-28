@@ -48,7 +48,7 @@ public class Quiz3 extends AppCompatActivity {
                 int selectedradioID = Question2.getCheckedRadioButtonId();
                 RadioButton selectedradioButton = findViewById(selectedradioID);
                 if(selectedradioButton.getText().equals("Thatha")) {
-                    Submit3.setVisibility(View.VISIBLE);
+                    Reward.setVisibility(View.VISIBLE);
                     Toast.makeText(Quiz3.this, "CORRECT ANSWER", Toast.LENGTH_SHORT).show();
                 }
                 else
