@@ -208,6 +208,33 @@
                 android:layout_height="400dp"
                 android:src="@drawable/sharathpoem" />
 
+            <TextView
+                android:id="@+id/vivek"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="VIVEK"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewVivek"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/apple_article" />
+
+            <TextView
+                android:id="@+id/textViewVivek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hi Manish. This is what I share with you"
+                android:textSize="30sp"/>
+
 
 
         </LinearLayout>

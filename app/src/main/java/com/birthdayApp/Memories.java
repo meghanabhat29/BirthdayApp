@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 public class Memories extends AppCompatActivity {
 
-    ImageView Bhakti, Deepak, Meghana, Neehar, Nishan, Sharath;
-    TextView tBhakti, tDeepak, tMeghana, tNeehar, tNishan;
+    ImageView Bhakti, Deepak, Meghana, Neehar, Nishan, Sharath, Vivek;
+    TextView tBhakti, tDeepak, tMeghana, tNeehar, tNishan, tVivek;
     ImageView tSharath, tSharath2;
 
     @Override
@@ -28,6 +28,7 @@ public class Memories extends AppCompatActivity {
         Neehar = findViewById(R.id.imageViewNeehar);
         Nishan = findViewById(R.id.imageViewNishan);
         Sharath = findViewById(R.id.imageViewSharath);
+        Vivek = findViewById(R.id.imageViewVivek);
         tBhakti = findViewById(R.id.textViewBhakti);
         tDeepak = findViewById(R.id.textViewDeepak);
         tMeghana = findViewById(R.id.textViewMeghana);
@@ -35,12 +36,15 @@ public class Memories extends AppCompatActivity {
         tNishan = findViewById(R.id.textViewNishan);
         tSharath = findViewById(R.id.SharathPoem);
         tSharath2 = findViewById(R.id.SharathPoem2);
+        tVivek = findViewById(R.id.textViewVivek);
+
         BhaktiAnimation();
         DeepakAnimation();
         MeghanaAnimation();
         NeeharAnimation();
         NishanAnimation();
         SharathAnimation();
+        VivekAnimation();
 
     }
 
@@ -105,5 +109,20 @@ public class Memories extends AppCompatActivity {
         correctAnimation.start();
     }
 
+    public void VivekAnimation()
+    {
+        Vivek.setVisibility(View.VISIBLE);
+        Vivek.setImageResource(R.drawable.vivek_memories);
+        final AnimationDrawable correctAnimation = (AnimationDrawable) Vivek.getDrawable();
+        correctAnimation.start();
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), Homies.class);
+        startActivity(intent);
+        super.onBackPressed();
+
+    }
 }
 

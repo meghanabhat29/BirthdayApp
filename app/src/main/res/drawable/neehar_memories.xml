@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/d1"
+    <item android:drawable="@drawable/neehar1"
         android:duration="2000"/>
-    <item android:drawable="@drawable/ball_article"
+    <item android:drawable="@drawable/neehar2"
         android:duration="2000"/>
-    <item android:drawable="@drawable/bat_article"
+    <item android:drawable="@drawable/neehar3"
         android:duration="2000"/>
-    <item android:drawable="@drawable/car_article"
+    <item android:drawable="@drawable/neehar4"
         android:duration="2000"/>
-    <item android:drawable="@drawable/cat_article"
+    <item android:drawable="@drawable/neehar5"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/neehar6"
         android:duration="2000"/>
 </animation-list>

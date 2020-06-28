@@ -11,4 +11,6 @@
         android:duration="2000"/>
     <item android:drawable="@drawable/deepak5"
         android:duration="2000"/>
+    <item android:drawable="@drawable/deepak6"
+        android:duration="2000"/>
 </animation-list>

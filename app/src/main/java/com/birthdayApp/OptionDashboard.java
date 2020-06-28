@@ -36,6 +36,14 @@ public class OptionDashboard extends AppCompatActivity {
             }
         });
 
+        I.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),ItMe.class);
+                startActivity(intent);
+            }
+        });
+
         S.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,6 +59,8 @@ public class OptionDashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
     }
 }
