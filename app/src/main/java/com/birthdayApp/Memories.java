@@ -118,12 +118,6 @@ public class Memories extends AppCompatActivity {
         correctAnimation.start();
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(getApplicationContext(), Homies.class);
-        startActivity(intent);
-        super.onBackPressed();
 
-    }
 }
 

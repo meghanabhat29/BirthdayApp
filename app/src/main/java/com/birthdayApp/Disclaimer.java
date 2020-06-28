@@ -47,4 +47,13 @@ public class Disclaimer extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), OptionDashboard.class);
+        startActivity(intent);
+        super.onBackPressed();
+
+    }
+
+
 }
