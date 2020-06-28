@@ -14,7 +14,6 @@
         <activity android:name=".Quiz2" />
         <activity android:name=".Quiz1" />
         <activity android:name=".Genasale" />
-        <activity android:name=".Nalapaaka" />
         <activity android:name=".Falafel"/>
         <activity android:name=".Book" />
         <activity android:name=".Memories" />
