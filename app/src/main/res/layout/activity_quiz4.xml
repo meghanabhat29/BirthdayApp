@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/ic_bg_topheader">
+    android:background="@drawable/ic_bg_topheader"
+    tools:context=".Quiz4">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +40,7 @@
                 android:id="@+id/question1"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:text="1."
+                android:text="1.Vivek spoke about a prank when we played 'Never have I ever'. When did it happen?"
                 android:textSize="30sp" />
 
             <RadioGroup
@@ -51,29 +52,23 @@
                     android:id="@+id/q1o1"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:text="Neehar, I am getting married.Are you single?"
+                    android:text="School"
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q1o2"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:text="Neehar, even I am single and ready to mingle, you know."
+                    android:text="PU College"
                     android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/q1o3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:text="Neehar, are you single and ready to mingle?"
+                    android:text="During Engineering"
                     android:textSize="25sp" />
 
-                <RadioButton
-                    android:id="@+id/q1o4"
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:text="Neehar, are you single?Let's have coffee."
-                    android:textSize="25sp" />
             </RadioGroup>
 
             <Button
@@ -87,55 +82,7 @@
                 android:textSize="30sp"
                 />
 
-            <TextView
-                android:id="@+id/question2"
-                android:layout_width="match_parent"
-                android:layout_height="146dp"
-                android:text="2.How does Sharath address you as very often?"
-                android:textSize="30sp" />
 
-            <RadioGroup
-                android:id="@+id/q2options"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/q2o1"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Aa Manishu "
-                    android:textSize="25sp" />
-
-                <RadioButton
-                    android:id="@+id/q2o2"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Thatha"
-                    android:textSize="25sp" />
-
-                <RadioButton
-                    android:id="@+id/q2o3"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Manish"
-                    android:textSize="25sp"/>
-
-                <RadioButton
-                    android:id="@+id/q4o4"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Ey"
-                    android:textSize="25sp" />
-            </RadioGroup>
-
-            <Button
-                android:id="@+id/q2Submit"
-                android:layout_width="120dp"
-                android:layout_height="50dp"
-                android:background="@drawable/submit_btn_border"
-                android:text="SUBMIT"
-                android:textSize="30sp"
-                android:visibility="invisible"/>
 
             <TextView
                 android:id="@+id/question3"

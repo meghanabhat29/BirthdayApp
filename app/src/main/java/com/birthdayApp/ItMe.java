@@ -1,5 +1,6 @@
 package com.birthdayApp;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -56,5 +57,11 @@ public class ItMe extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         stopPlayer();
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), Quiz2.class);
+        startActivity(intent);
+
     }
 }

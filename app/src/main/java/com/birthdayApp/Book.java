@@ -47,6 +47,13 @@ public class Book extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
+    public void openNext() {
+        Intent intent = new Intent(getApplicationContext(), Quiz1.class);
+        startActivity(intent);
+
+    }
 }
 
 

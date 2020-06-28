@@ -18,7 +18,7 @@ public class Quiz1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_sachin);
+        setContentView(R.layout.activity_quiz1);
 
         Question1 = findViewById(R.id.q1options);
         Question2 = findViewById(R.id.q2options);
