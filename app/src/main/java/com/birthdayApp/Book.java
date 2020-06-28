@@ -42,7 +42,7 @@ public class Book extends AppCompatActivity {
 
     public void openURL(View view)
     {
-        Uri uri = Uri.parse("https://www.google.com/intl/en-GB/gmail/about/");
+        Uri uri = Uri.parse("https://www,gmail.com");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
 
