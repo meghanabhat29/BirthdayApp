@@ -40,7 +40,7 @@ public class Disclaimer extends AppCompatActivity {
             @Override
             public void onFinish() {
                 timerRunning = false;
-                Intent disIntent = new Intent(Disclaimer.this, OptionDashboard.class);
+                Intent disIntent = new Intent(Disclaimer.this, SachinQuiz.class);
                 startActivity(disIntent);
             }
         }.start();
