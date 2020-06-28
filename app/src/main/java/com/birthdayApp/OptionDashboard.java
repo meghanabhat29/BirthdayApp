@@ -59,6 +59,13 @@ public class OptionDashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        N.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Nalapaaka.class);
+                startActivity(intent);
+            }
+        });
 
 
 

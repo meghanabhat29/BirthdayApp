@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Book"></activity>
+        <activity android:name=".Genasale"></activity>
+        <activity android:name=".Nalapaaka" />
+        <activity android:name=".Book" />
         <activity android:name=".Memories" />
-        <activity android:name=".OptionDashboard"/>
-        <activity android:name=".Homies"/>
-        <activity android:name=".Disclaimer"/>
-        <activity android:name=".ItMe"/>
+        <activity android:name=".OptionDashboard" />
+        <activity android:name=".Homies" />
+        <activity android:name=".Disclaimer" />
+        <activity android:name=".ItMe" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

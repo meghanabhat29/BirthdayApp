@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Genasale">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genasale_text"
+            android:textAlignment="center"
+            android:text="Ingredients :\n 1.Rice flour\n 2.Jaggery\n 3.Grated coconut\n 4.Turmeric leaves\n\nStep 1: Add rice flour and jaggery to boiling water and mix continuously until it becomes a thick paste with uniform consistency.\nStep 2: In another pan, mix jaggery and grated cocunut well until a thick mixture is obtained.\nStep 3: Spread the rice flour mixture along a clean turmeric leaf such that there's enough space left for it to be folded in half.Add the coconut/jaggery mixture on it.\nStep 4: Fold the leaf and steam it just as Idli is steamed.\nServe with ghee. "/>
+    </LinearLayout>
+</ScrollView>
