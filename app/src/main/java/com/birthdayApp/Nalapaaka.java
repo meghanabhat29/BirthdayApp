@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class Nalapaaka extends AppCompatActivity {
-    CardView genasale;
+    CardView genasale, falafel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,15 @@ public class Nalapaaka extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Genasale.class);
+                startActivity(intent);
+            }
+        });
+
+        falafel = findViewById(R.id.falafel);
+        falafel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Falafel.class);
                 startActivity(intent);
             }
         });

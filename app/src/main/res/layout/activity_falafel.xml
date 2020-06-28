@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/falafel_text"
+            android:textSize="30sp"
+            android:text="Ingredients:\n\n1. 1 cup chole/chick peas\n2. 0.5 cup finely chopped onions\n3. 0.5 tsp cumin seeds\n4. Green chillies\n5. Garlic cloves\n6. 0.5 tsp black pepper\n7. 0.5 tsp coriander powder\n8. 0.5 tsp red chili powder\n
+9. salt to taste\n
+10. 2 tsp maida\n
+11. Finely chopped coriander leaves.\n
+12. 1 tsp lemon juice.\n
+13. oil for frying\n
+
+
+Procedure:\n\n
+1.Wash chole and soak overnight.\n
+2. Transfer the soaked chole into blender jar.\n
+3. Add onion, cumin seeds, green chilli, garlic, black pepper, coriander powder, red chilli powder, salt, maida, coriander leaves and blend into coarse paste.\n
+4. Don't blend continuously. Just give a few pulses.\n
+5. You can use besan in place of maida also.\n
+6. Add lemon juice and again give just 1-2 pulses.\n
+7. Transfer the mixture into a bowl.\n
+8. Cover and rest it in freezer for an hour.\n
+9. Take a small portion from the mixture and roll them into balls.\n
+10. Heat the oil on medium flame.\n
+11. Drop falafel into hot oil and fry well until it gets a nice golden colour.\n
+12. When the falafel is fried well, take it out, drain the excess oil and transfer into a plate.\n
+13. Enjoy your falafel. Tastes best with mayo.\n"/>
+    </LinearLayout>
+</ScrollView>
