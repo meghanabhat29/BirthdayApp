@@ -73,7 +73,7 @@ public class Quiz1 extends AppCompatActivity {
         Reward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ItMe.class);
+                Intent intent = new Intent(getApplicationContext(), Nalapaaka.class);
                 startActivity(intent);
             }
         });

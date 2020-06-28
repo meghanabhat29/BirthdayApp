@@ -1,9 +1,11 @@
 package com.birthdayApp;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,7 @@ public class Homies extends AppCompatActivity {
 
     ImageView homies;
     MediaPlayer player;
+    Button buttonNext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +22,14 @@ public class Homies extends AppCompatActivity {
         homies = findViewById(R.id.imageViewhomies);
         homiesAnimation();
         play();
+
+        buttonNext = findViewById(R.id.buttonBook);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
 
     }
 
@@ -54,5 +65,10 @@ public class Homies extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         stopPlayer();
+    }
+
+    public void openNext(View view) {
+        Intent intent = new Intent(getApplicationContext(), Quiz4.class);
+        startActivity(intent);
     }
 }

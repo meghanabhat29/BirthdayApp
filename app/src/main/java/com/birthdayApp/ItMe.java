@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.TextView;
@@ -14,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ItMe extends AppCompatActivity {
 
     MediaPlayer player;
+    Button buttonNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,14 @@ public class ItMe extends AppCompatActivity {
         mediaController.setAnchorView(videoView);
 
         play();
+
+        buttonNext = findViewById(R.id.buttonBook);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
 
 
     }
@@ -58,9 +69,9 @@ public class ItMe extends AppCompatActivity {
         super.onStop();
         stopPlayer();
     }
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(getApplicationContext(), Quiz2.class);
+
+    public void openNext(View view) {
+        Intent intent = new Intent(getApplicationContext(), Quiz3.class);
         startActivity(intent);
 
     }

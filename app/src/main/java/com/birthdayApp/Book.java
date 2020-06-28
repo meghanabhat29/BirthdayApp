@@ -22,6 +22,8 @@ public class Book extends AppCompatActivity {
     private TextView textViewBook;
     private ImageView imageViewBook;
     public Button buttonBook;
+    public Button buttonNext;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,14 @@ public class Book extends AppCompatActivity {
                 openURL(view);
             }
         });
+
+        buttonNext = findViewById(R.id.buttonBook);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openNext(view);
+            }
+        });
     }
 
 
@@ -49,7 +59,7 @@ public class Book extends AppCompatActivity {
     }
 
 
-    public void openNext() {
+    public void openNext(View v) {
         Intent intent = new Intent(getApplicationContext(), Quiz1.class);
         startActivity(intent);
 
